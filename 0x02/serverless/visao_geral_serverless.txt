@@ -1,0 +1,55 @@
+O que é Arquitetura Serverless
+
+Arquitetura Serverless, ou apenas Serverless, é um modelo de execução onde o provedor de cloud 
+(AWS, Azure ou Google Cloud) será o responsável por executar pedaços de código com recursos 
+que irão ser alocados dinamicamente e cobrando apenas pelos recursos usados para executar aquele 
+código em específico. Geralmente o código será executado em containers stateless que podem ser 
+ativados de diversos modos, como requisições HTTP, eventos do banco de dados, serviços de filas, 
+alertas de monitoramento, upload de arquivos, eventos agendados, etc. O código que será enviado 
+ao provedor é geralmente escrito em forma de funções. Por conta disso podemos ver a arquitetura 
+Serverless ser referenciada como “Functions as a Service” (Funções como Serviço) ou “FaaS”.
+Esses são os maiores provedores de FaaS do mercado atualmente:
+
+- AWS: AWS Lambda
+- Microsoft Azure: Azure Functions
+- Google Cloud: Cloud Functions
+
+Embora o Serverless abstraia o gerenciamento direto de um servidor do desenvolvedor, os servidores continuam envolvidos na hora de executar as funções
+Tendo em mente que o seu código será executado em funções individuais, alguns pontos devem ser levados em consideração.
+_______________ -- ________________ -- ______________
+
+O que é Function as a service (FaaS) ?
+
+FaaS (Function-as-a-Service) é um tipo de serviço de computação em nuvem que permite executar código 
+em resposta a eventos sem a infraestrutura complexa normalmente associada à criação e lançamento de aplicativos de microsserviços .
+Hospedar um aplicativo de software na Internet normalmente requer provisionar e gerenciar um servidor 
+virtual ou físico e gerenciar um sistema operacional e processos de hospedagem de servidor web. 
+Com o FaaS, o hardware físico, o sistema operacional da máquina virtual e o gerenciamento de software 
+do servidor web são todos gerenciados automaticamente pelo seu provedor de serviços em nuvem. Isso permite que você 
+se concentre apenas em funções individuais em seu código de aplicativo.
+_______________ -- ________________ -- ______________
+
+Quais são os benefícios de usar arquitetura Serverless ?
+
+Desenvolva e lance atualizações rapidamente para o mercado;
+Deixe sua equipe focada no seu negócio não da infraestrutura;
+Escalabilidade integrada e automática;
+Redução de custos de infraestrutura.
+_______________ -- ________________ -- ______________
+
+O que é Cloud Computing (Computação em Nuvem) ? E quais são seu benéficios ?
+A cloud computing, ou computação em nuvem é um serviço de computação baseado na internet na qual é sintetizada
+pelo poder de utilizar recursos de TI sob demanda de computação, armazenamento de dados, redes e de aplicações 
+em ambientes compartilhados de maneira integrada através da internet, em qualquer lugar e independente de plataforma, 
+sem ter que investir em equipamentos.
+
+E quais são seu benéficios ?
+Econômia de custo, Escalabilidade, Agilidade e Inovação, Confiabilidade, Armazenamento ilimitado, Backup e recuperação, Acesso fácil às informações.
+
+_______________ -- ________________ -- ______________
+Quais são as principais diferença entre Arquitetura Monólitica, Microsserviços e Serverless ?
+
+Arquitetura Monolítica é um sistema único, não dividido, que roda em um único processo, uma aplicação de software em que diferentes componentes
+estão ligados a um único programa dentro de uma única plataforma.pode trabalar em uma parte dessa arquitetur,Microsserviços é o nome dado a uma 
+arquitetura que estrutura a aplicação criando uma coleção de serviços. 
+Serverless é um modelo de desenvolvimento nativo em nuvem para criação e execução de aplicações sem o gerenciamento de servidores.
